@@ -1,6 +1,7 @@
 def count_ips(filename):
     import re
     #Define the search term:
+    # Simple matching: \d+ means match one of more digits
     pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
 
     #Create an empty list, and empty dict:
